@@ -1,0 +1,248 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+p{
+	margin-bottom: 0 !important;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	letter-spacing: 0.5px;
+	font-weight: 300;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+
+.kz-section{
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.kz-section-text{
+	font-size: 1.1rem;
+}
+
+/*SECTION 0:HERO*/
+
+.navbar{
+	height: 75px;
+	z-index: 999;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+.kz-logo{
+	height: 50px;
+	width: auto;
+}
+
+.kz-bg-transparent{
+	background: black;
+}
+
+.kz-nav-list{
+	list-style: none;
+}
+
+.kz-nav-list li{
+	display: inline-block;
+	margin-left: 32px;
+	margin-top: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.6px;
+
+	transition: 0.2s;
+
+}
+
+.kz-nav-list li:hover{
+	color: #BCD0C7;
+
+}
+
+ .kz-social-icons{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 1070;
+   }
+   .kz-social-icons a{
+	display: block;
+	text-align: center;
+	padding: 10px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 25px;
+   }
+   .kz-social-icons a:hover{
+   	   background-color: #000;
+   }
+   .fb {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .insta {
+	background: #fb3958;
+	color: white;
+  }
+  
+  .google {
+	background: #dd4b39;
+	color: white;
+  }
+  
+  .linkdn {
+	background: #007bb5;
+	color: white;
+  }
+
+  @media (max-width:500px){
+	  .kz-social-icons a{
+		  padding: 5px;
+		  font-size: 15px;
+	  }
+  }
+
+.carousel{
+	position: relative;
+}
+
+.kz-gradient{
+	background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.8));
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.kz-hero-text{
+	position: absolute;
+	color: white;
+	width: 50%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.kz-hero-text .title{
+	font-size: 4rem;
+	letter-spacing: 1.1px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.kz-hero-text .tagline{
+	font-size: 1.6rem;
+	letter-spacing: 1.3px;
+	font-weight: 400;
+	margin-top: -4px;
+	color: #eaebed;
+	opacity: 0.6;
+}
+
+.kz-section-dept{
+	background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("../assets/img/1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+}
+
+.kz-section-dept .kz-section-text{
+	color: #BCD0C7;
+}
+
+.kz-section-event{
+	background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("../assets/img/2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+}
+
+.kz-section-event .kz-section-text{
+	color: #BCD0C7;
+}
+
+.kz-section-event h2{
+	text-transform: none;
+}
+
+#map{
+	height: 400px;
+	width: 100%;
+}
+
+.kz-container{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kz-section-map h2{
+	margin-top: 100px;
+}
+
+.kz-section-map P{
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.kz-section-message{
+	background-color: black;
+}
+
+.kz-section-message h2{
+	color: white;
+}
+
+.kz-section-message .form-group{
+	z-index: 999;
+	color: white;
+}
+
+/*.rotate{
+	z-index: -999;
+    margin-left: 28%;
+    margin-top: -40px;
+    width: 3%;
+    animation: spin 4s linear infinite;
+}*/
+
+.rotate{
+	z-index: -999;
+    width: 5%;
+    margin-left: 75%;
+    margin-bottom: -20%;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*.carousel-item {
+    display: none;
+    position: relative;
+    .transition(.6s ease-in-out left);
+}*/
+
+
+
+
+
